@@ -24,7 +24,7 @@ C<first_page_number> and C<last_page_number>.
 =item * C<<zoom_level => ZoomLevel $zoom_level>>:
 
 The amount of zoom to use in order to control the dimensions of the
-rendered PDF page. This is C<1.0> by default.
+rendered page. This is C<1.0> by default.
 
 Optional. Value must be a C<ZoomLevel>.
 

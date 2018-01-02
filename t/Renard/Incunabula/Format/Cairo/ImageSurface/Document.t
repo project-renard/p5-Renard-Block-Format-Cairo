@@ -2,14 +2,13 @@
 
 use Test::Most tests => 1;
 
-use lib 't/lib';
-use Renard::Incunabula::Devel::TestHelper;
+use Renard::Incunabula::Format::Cairo::Devel::TestHelper;
 
 use Renard::Incunabula::Common::Setup;
 use Renard::Incunabula::Format::Cairo::ImageSurface::Document;
 
 subtest 'Cairo document model' => sub {
-	my $cairo_doc = Renard::Incunabula::Devel::TestHelper->create_cairo_document;
+	my $cairo_doc = Renard::Incunabula::Format::Cairo::Devel::TestHelper->create_cairo_document;
 
 	ok( $cairo_doc, "Cairo document object created successfully" );
 

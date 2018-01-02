@@ -8,7 +8,7 @@ use Renard::Incunabula::Devel::TestHelper;
 use Renard::Incunabula::Common::Setup;
 use Renard::Incunabula::Page::RenderedFromPNG;
 
-subtest "Process arguments for PDF file" => sub {
+subtest "Process arguments for PNG file" => sub {
 	my $png_path = try {
 		Renard::Incunabula::Devel::TestHelper->test_data_directory->child(qw(PNG libpng ccwn3p08.png));
 	} catch {
