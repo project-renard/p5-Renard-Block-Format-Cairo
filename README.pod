@@ -4,7 +4,7 @@
 
 =head1 NAME
 
-Renard::Incunabula::Format::Cairo::Types - Type library
+Renard::Incunabula::Format::Cairo - A document format for Cairo surfaces
 
 =head1 VERSION
 
@@ -14,21 +14,13 @@ version 0.004
 
 =over 4
 
-=item * L<Type::Library>
+=item * L<Moo::Object>
 
 =back
 
-=head1 TYPES
+=head1 SEE ALSO
 
-=head2 RenderableDocumentModel
-
-A type for any reference that does
-L<Renard::Incunabula::Document::Role::Renderable>.
-
-=head2 RenderablePageModel
-
-A type for any reference that does
-L<Renard::Incunabula::Page::Role::CairoRenderable>.
+L<Repository information|http://project-renard.github.io/doc/development/repo/p5-Renard-Incunabula-Format-Cairo/>
 
 =head1 AUTHOR
 
