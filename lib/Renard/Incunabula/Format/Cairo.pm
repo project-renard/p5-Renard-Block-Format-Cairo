@@ -1,3 +1,4 @@
+use Renard::Incunabula::Common::Setup;
 package Renard::Incunabula::Format::Cairo;
 # ABSTRACT: A document format for Cairo surfaces
 
