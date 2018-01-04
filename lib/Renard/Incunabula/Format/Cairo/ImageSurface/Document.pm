@@ -5,7 +5,8 @@ package Renard::Incunabula::Format::Cairo::ImageSurface::Document;
 use Moo;
 use Renard::Incunabula::Page::CairoImageSurface;
 use Function::Parameters;
-use Renard::Incunabula::Common::Types qw(PageNumber InstanceOf ArrayRef);
+use Renard::Incunabula::Common::Types qw(InstanceOf ArrayRef);
+use Renard::Incunabula::Document::Types qw(PageNumber);
 
 extends qw(Renard::Incunabula::Document);
 

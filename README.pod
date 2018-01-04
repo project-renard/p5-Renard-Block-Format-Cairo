@@ -4,22 +4,31 @@
 
 =head1 NAME
 
-Renard::Incunabula - The base library for Project Renard
+Renard::Incunabula::Format::Cairo::Types - Type library
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
-=head1 DESCRIPTION
+=head1 EXTENDS
 
-This library contains various modules that can be used throughout other parts
-of Project Renard.  Among these is L<Renard::Incunabula::Common::Setup> which
-provides an easy way to export commonly used features such as use of
-L<Function::Parameters> for function signatures and type-checking.
+=over 4
 
-=head1 SEE ALSO
+=item * L<Type::Library>
 
-L<Repository information|http://project-renard.github.io/doc/development/repo/p5-Renard-Incunabula/>
+=back
+
+=head1 TYPES
+
+=head2 RenderableDocumentModel
+
+A type for any reference that does
+L<Renard::Incunabula::Document::Role::Renderable>.
+
+=head2 RenderablePageModel
+
+A type for any reference that does
+L<Renard::Incunabula::Page::Role::CairoRenderable>.
 
 =head1 AUTHOR
 
