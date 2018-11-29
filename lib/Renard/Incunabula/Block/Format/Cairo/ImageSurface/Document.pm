@@ -1,5 +1,5 @@
 use Renard::Incunabula::Common::Setup;
-package Renard::Incunabula::Format::Cairo::ImageSurface::Document;
+package Renard::Incunabula::Block::Format::Cairo::ImageSurface::Document;
 # ABSTRACT: Document made up of a collection of Cairo image surfaces
 
 use Moo;
