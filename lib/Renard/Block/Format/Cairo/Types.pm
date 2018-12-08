@@ -1,5 +1,5 @@
 use Renard::Incunabula::Common::Setup;
-package Renard::Incunabula::Block::Format::Cairo::Types;
+package Renard::Block::Format::Cairo::Types;
 # ABSTRACT: Type library
 
 use Type::Library 0.008 -base,

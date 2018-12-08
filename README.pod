@@ -4,7 +4,7 @@
 
 =head1 NAME
 
-Renard::Incunabula::Format::Cairo - A document format for Cairo surfaces
+Renard::Block::Format::Cairo - A document format for Cairo surfaces
 
 =head1 VERSION
 
@@ -20,7 +20,7 @@ version 0.004
 
 =head1 SEE ALSO
 
-L<Repository information|http://project-renard.github.io/doc/development/repo/p5-Renard-Incunabula-Format-Cairo/>
+L<Repository information|http://project-renard.github.io/doc/development/repo/p5-Renard-Block-Format-Cairo/>
 
 =head1 AUTHOR
 

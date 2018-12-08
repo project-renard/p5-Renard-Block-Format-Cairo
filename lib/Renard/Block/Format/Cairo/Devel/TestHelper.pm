@@ -1,15 +1,15 @@
 use Renard::Incunabula::Common::Setup;
-package Renard::Incunabula::Block::Format::Cairo::Devel::TestHelper;
+package Renard::Block::Format::Cairo::Devel::TestHelper;
 # ABSTRACT: A test helper with functions useful for testing Cairo documents
 
-use Renard::Incunabula::Block::Format::Cairo::ImageSurface::Document;
+use Renard::Block::Format::Cairo::ImageSurface::Document;
 use Cairo;
 
 =classmethod create_cairo_document
 
-  Renard::Incunabula::Block::Format::Cairo::Devel::TestHelper->create_cairo_document
+  Renard::Block::Format::Cairo::Devel::TestHelper->create_cairo_document
 
-Returns a L<Renard::Incunabula::Block::Format::Cairo::ImageSurface::Document> which can be
+Returns a L<Renard::Block::Format::Cairo::ImageSurface::Document> which can be
 used for testing.
 
 The pages have the colors:
@@ -49,7 +49,7 @@ classmethod create_cairo_document( :$repeat = 1, :$width = 5000, :$height = 5000
 		$surface;
 	} @$colors;
 
-	my $cairo_doc = Renard::Incunabula::Block::Format::Cairo::ImageSurface::Document->new(
+	my $cairo_doc = Renard::Block::Format::Cairo::ImageSurface::Document->new(
 		image_surfaces => \@surfaces,
 	);
 }

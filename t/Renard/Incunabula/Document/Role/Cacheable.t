@@ -2,13 +2,13 @@
 
 use Test::Most tests => 1;
 
-use Renard::Incunabula::Block::Format::Cairo::Devel::TestHelper;
+use Renard::Block::Format::Cairo::Devel::TestHelper;
 
 use Renard::Incunabula::Common::Setup;
-use Renard::Incunabula::Block::Format::Cairo::ImageSurface::Document;
+use Renard::Block::Format::Cairo::ImageSurface::Document;
 
 subtest 'Cairo document model' => sub {
-	my $cairo_doc = Renard::Incunabula::Block::Format::Cairo::Devel::TestHelper->create_cairo_document;
+	my $cairo_doc = Renard::Block::Format::Cairo::Devel::TestHelper->create_cairo_document;
 	Role::Tiny->apply_roles_to_object( $cairo_doc,
 		qw(Renard::Incunabula::Document::Role::Cacheable) );
 	my $first_page = $cairo_doc->get_rendered_page( page_number => 1 );
