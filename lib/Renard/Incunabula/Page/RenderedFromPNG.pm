@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
 package Renard::Incunabula::Page::RenderedFromPNG;
 # ABSTRACT: Page generated from PNG data
-$Renard::Incunabula::Page::RenderedFromPNG::VERSION = '0.004';
+$Renard::Incunabula::Page::RenderedFromPNG::VERSION = '0.005';
 use Moo;
 
 with qw(
@@ -23,7 +23,7 @@ Renard::Incunabula::Page::RenderedFromPNG - Page generated from PNG data
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 EXTENDS
 

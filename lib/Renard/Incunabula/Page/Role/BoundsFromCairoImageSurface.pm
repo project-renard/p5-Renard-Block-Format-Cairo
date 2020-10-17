@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
 package Renard::Incunabula::Page::Role::BoundsFromCairoImageSurface;
 # ABSTRACT: A role to build the bounds from the size of a Cairo::ImageSurface
-$Renard::Incunabula::Page::Role::BoundsFromCairoImageSurface::VERSION = '0.004';
+$Renard::Incunabula::Page::Role::BoundsFromCairoImageSurface::VERSION = '0.005';
 use Moo::Role;
 use Renard::Incunabula::Common::Types qw(PositiveOrZeroInt);
 
@@ -34,7 +34,7 @@ Renard::Incunabula::Page::Role::BoundsFromCairoImageSurface - A role to build th
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 CONSUMES
 

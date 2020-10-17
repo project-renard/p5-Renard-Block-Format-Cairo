@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
 package Renard::Incunabula::Page::Role::CairoRenderableFromPNG;
 # ABSTRACT: A role to use PNG data to create Cairo::ImageSurface
-$Renard::Incunabula::Page::Role::CairoRenderableFromPNG::VERSION = '0.004';
+$Renard::Incunabula::Page::Role::CairoRenderableFromPNG::VERSION = '0.005';
 use Moo::Role;
 use Cairo;
 
@@ -20,7 +20,7 @@ has cairo_image_surface => (
 method _build_cairo_image_surface() :ReturnType(InstanceOf['Cairo::ImageSurface']) {
 	# read the PNG data in-memory
 	my $img = Cairo::ImageSurface->create_from_png_stream(
-		fun ((Str) $callback_data, (Int) $length) {
+		my $cb = fun ((Str) $callback_data, (Int) $length) {
 			state $offset = 0;
 			my $data = substr $callback_data, $offset, $length;
 			$offset += $length;
@@ -48,7 +48,7 @@ Renard::Incunabula::Page::Role::CairoRenderableFromPNG - A role to use PNG data 
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 CONSUMES
 

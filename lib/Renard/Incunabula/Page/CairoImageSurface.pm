@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
 package Renard::Incunabula::Page::CairoImageSurface;
 # ABSTRACT: Page directly generated from a Cairo image surface
-$Renard::Incunabula::Page::CairoImageSurface::VERSION = '0.004';
+$Renard::Incunabula::Page::CairoImageSurface::VERSION = '0.005';
 use Moo;
 use Renard::Incunabula::Common::Types qw(InstanceOf);
 
@@ -30,7 +30,7 @@ Renard::Incunabula::Page::CairoImageSurface - Page directly generated from a Cai
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 EXTENDS
 

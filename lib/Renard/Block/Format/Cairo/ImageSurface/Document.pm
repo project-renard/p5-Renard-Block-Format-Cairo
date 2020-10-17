@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
-package Renard::Incunabula::Format::Cairo::ImageSurface::Document;
+package Renard::Block::Format::Cairo::ImageSurface::Document;
 # ABSTRACT: Document made up of a collection of Cairo image surfaces
-$Renard::Incunabula::Format::Cairo::ImageSurface::Document::VERSION = '0.004';
+$Renard::Block::Format::Cairo::ImageSurface::Document::VERSION = '0.005';
 use Moo;
 use Renard::Incunabula::Page::CairoImageSurface;
 use Function::Parameters;
@@ -61,11 +61,11 @@ __END__
 
 =head1 NAME
 
-Renard::Incunabula::Format::Cairo::ImageSurface::Document - Document made up of a collection of Cairo image surfaces
+Renard::Block::Format::Cairo::ImageSurface::Document - Document made up of a collection of Cairo image surfaces
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 EXTENDS
 

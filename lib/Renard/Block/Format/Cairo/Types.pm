@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
-package Renard::Incunabula::Format::Cairo::Types;
+package Renard::Block::Format::Cairo::Types;
 # ABSTRACT: Type library
-$Renard::Incunabula::Format::Cairo::Types::VERSION = '0.004';
+$Renard::Block::Format::Cairo::Types::VERSION = '0.005';
 use Type::Library 0.008 -base,
 	-declare => [qw(
 		RenderableDocumentModel
@@ -25,11 +25,11 @@ __END__
 
 =head1 NAME
 
-Renard::Incunabula::Format::Cairo::Types - Type library
+Renard::Block::Format::Cairo::Types - Type library
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 EXTENDS
 

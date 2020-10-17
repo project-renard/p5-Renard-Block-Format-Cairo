@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
 package Renard::Incunabula::Document::Role::Cacheable;
 # ABSTRACT: Role that caches rendered pages
-$Renard::Incunabula::Document::Role::Cacheable::VERSION = '0.004';
+$Renard::Incunabula::Document::Role::Cacheable::VERSION = '0.005';
 use Moo::Role;
 use Renard::Incunabula::Common::Types qw(InstanceOf);
 
@@ -46,7 +46,7 @@ Renard::Incunabula::Document::Role::Cacheable - Role that caches rendered pages
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 ATTRIBUTES
 

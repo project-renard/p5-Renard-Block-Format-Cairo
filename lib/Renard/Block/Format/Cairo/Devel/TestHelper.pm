@@ -1,8 +1,8 @@
 use Renard::Incunabula::Common::Setup;
-package Renard::Incunabula::Format::Cairo::Devel::TestHelper;
+package Renard::Block::Format::Cairo::Devel::TestHelper;
 # ABSTRACT: A test helper with functions useful for testing Cairo documents
-$Renard::Incunabula::Format::Cairo::Devel::TestHelper::VERSION = '0.004';
-use Renard::Incunabula::Format::Cairo::ImageSurface::Document;
+$Renard::Block::Format::Cairo::Devel::TestHelper::VERSION = '0.005';
+use Renard::Block::Format::Cairo::ImageSurface::Document;
 use Cairo;
 
 classmethod create_cairo_document( :$repeat = 1, :$width = 5000, :$height = 5000 ) {
@@ -29,7 +29,7 @@ classmethod create_cairo_document( :$repeat = 1, :$width = 5000, :$height = 5000
 		$surface;
 	} @$colors;
 
-	my $cairo_doc = Renard::Incunabula::Format::Cairo::ImageSurface::Document->new(
+	my $cairo_doc = Renard::Block::Format::Cairo::ImageSurface::Document->new(
 		image_surfaces => \@surfaces,
 	);
 }
@@ -44,19 +44,19 @@ __END__
 
 =head1 NAME
 
-Renard::Incunabula::Format::Cairo::Devel::TestHelper - A test helper with functions useful for testing Cairo documents
+Renard::Block::Format::Cairo::Devel::TestHelper - A test helper with functions useful for testing Cairo documents
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 CLASS METHODS
 
 =head2 create_cairo_document
 
-  Renard::Incunabula::Format::Cairo::Devel::TestHelper->create_cairo_document
+  Renard::Block::Format::Cairo::Devel::TestHelper->create_cairo_document
 
-Returns a L<Renard::Incunabula::Format::Cairo::ImageSurface::Document> which can be
+Returns a L<Renard::Block::Format::Cairo::ImageSurface::Document> which can be
 used for testing.
 
 The pages have the colors:

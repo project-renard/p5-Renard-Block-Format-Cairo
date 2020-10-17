@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
 package Renard::Incunabula::Page::Role::CairoRenderable;
 # ABSTRACT: Role for pages that represented by a Cairo image surface
-$Renard::Incunabula::Page::Role::CairoRenderable::VERSION = '0.004';
+$Renard::Incunabula::Page::Role::CairoRenderable::VERSION = '0.005';
 use Moo::Role;
 use Function::Parameters;
 use Renard::Incunabula::Common::Types qw(PositiveOrZeroInt);
@@ -23,7 +23,7 @@ Renard::Incunabula::Page::Role::CairoRenderable - Role for pages that represente
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 ATTRIBUTES
 

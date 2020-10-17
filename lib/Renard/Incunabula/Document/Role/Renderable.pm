@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
 package Renard::Incunabula::Document::Role::Renderable;
 # ABSTRACT: Role for documents that can render their pages
-$Renard::Incunabula::Document::Role::Renderable::VERSION = '0.004';
+$Renard::Incunabula::Document::Role::Renderable::VERSION = '0.005';
 use Moo::Role;
 
 requires 'get_rendered_page';
@@ -22,7 +22,7 @@ Renard::Incunabula::Document::Role::Renderable - Role for documents that can ren
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 METHODS
 

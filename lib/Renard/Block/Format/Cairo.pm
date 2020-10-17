@@ -1,7 +1,7 @@
 use Renard::Incunabula::Common::Setup;
-package Renard::Incunabula::Format::Cairo;
+package Renard::Block::Format::Cairo;
 # ABSTRACT: A document format for Cairo surfaces
-$Renard::Incunabula::Format::Cairo::VERSION = '0.004';
+$Renard::Block::Format::Cairo::VERSION = '0.005';
 use Moo;
 
 1;
@@ -14,11 +14,11 @@ __END__
 
 =head1 NAME
 
-Renard::Incunabula::Format::Cairo - A document format for Cairo surfaces
+Renard::Block::Format::Cairo - A document format for Cairo surfaces
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 EXTENDS
 
@@ -30,7 +30,7 @@ version 0.004
 
 =head1 SEE ALSO
 
-L<Repository information|http://project-renard.github.io/doc/development/repo/p5-Renard-Incunabula-Format-Cairo/>
+L<Repository information|http://project-renard.github.io/doc/development/repo/p5-Renard-Block-Format-Cairo/>
 
 =head1 AUTHOR
 
